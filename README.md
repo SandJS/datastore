@@ -6,7 +6,7 @@ Sand Client to Google Cloud Datastore.
 
 ## `sand.datastore`
 ### `sand.datastore.kind(kindName)`
-Creates a client that saves a `Kind` of the specified `kindName`.
+Creates a client that interacts with a `Kind` of the specified `kindName`.
 
 ## `class Kind`
 ### `Kind.get(id[, callback])`
