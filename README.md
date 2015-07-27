@@ -4,10 +4,11 @@ Sand Client to Google Cloud Datastore.
 ## Config
 `namespace` optional namespace for all `Kind`s created by this client
 
-## API
+## `sand.datastore`
 ### `sand.datastore.kind(kindName)`
 Creates a client that saves a `Kind` of the specified `kindName`.
 
+## `class Kind`
 ### `Kind.get(id[, callback])`
 Get the kind with this id.
 
@@ -17,7 +18,7 @@ Saves the value with the id for this `Kind`
 ### `Kind.delete(id[, callback])`
 Deletes the value at the specified key for this `Kind`
 
-### `Kind.key`
+### `Kind.key(id)`
 Builds a `gcloud-node` compatible key for the specified id, including the namespace if configured.
 
 ## Depends on
