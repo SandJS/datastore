@@ -25,5 +25,8 @@
   "dependencies": {
     "callback-and-promise": "^2.0.0",
     "sand-grain": "^1.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
