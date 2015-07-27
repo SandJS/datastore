@@ -1,0 +1,29 @@
+{
+  "name": "sand-datastore",
+  "version": "1.0.0",
+  "description": "Sand.js Google Cloud Datastore Client",
+  "main": "lib/datastore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SandJS/datastore.git"
+  },
+  "keywords": [
+    "Sand",
+    "Datastore",
+    "Google",
+    "Client"
+  ],
+  "author": "Adam Jaso <ajaso@sazze.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandJS/datastore/issues"
+  },
+  "homepage": "https://github.com/SandJS/datastore#readme",
+  "dependencies": {
+    "co": "sazze/co",
+    "sand-grain": "^1.0.1"
+  }
+}
