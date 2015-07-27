@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/SandJS/datastore#readme",
   "dependencies": {
-    "co": "sazze/co",
+    "callback-and-promise": "^2.0.0",
     "sand-grain": "^1.0.1"
   }
 }
