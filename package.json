@@ -1,6 +1,6 @@
 {
   "name": "sand-datastore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sand.js Google Cloud Datastore Client",
   "main": "lib/datastore.js",
   "scripts": {
